@@ -14,8 +14,9 @@ public class PlayerScript : MonoBehaviour {
 	// ゲームが始まった時に一回だけ呼ばれる
 	void Start () {
 		animator = GetComponent <Animator> ();
-		uiscript = GameObject.Find ("Canvas").GetComponent<UIScript> ();
-	}
+		uiscript = GameObject.Find ("PlayControllCanvas").GetComponent<UIScript> ();
+        Debug.Log("OKfromPS");
+    }
 
 	void Update () {
 		transform.position += Vector3.forward * speed * Time.deltaTime;
@@ -40,7 +41,7 @@ public class PlayerScript : MonoBehaviour {
 		bool isHigh = colider.CompareTag("High");
 		bool isLow = colider.CompareTag("Low");
 		bool isBarrier = colider.CompareTag ("barrier");
-		bool isGoal = colider.CompareTag ("goal");
+		bool isGoal = colider.CompareTag ("Goal");
 
 
 		// 障害物に当たったとき
@@ -49,29 +50,30 @@ public class PlayerScript : MonoBehaviour {
 		    (isBarrier == true)){
             speed = 0;
 			animator.SetBool ("DEAD", true);
-            uiscript.Gameover();
-		}
+            GameoverCanvasScript.GameoverCanvas.enabled = true;
+
+        }
 
 		//ゴールした時
 		if(isGoal == true){
 			speed = 0;
-
+            Debug.Log("Goalをけんち");
 			animator.SetBool ("WIN", true);
 			// UI
-			uiscript.Goal();
+			//Goal();
 		}
 	}
 	public void Left(){
-		transform.position += Vector3.left * PlayerScript.slideSpeed * Time.deltaTime;
+		transform.position += Vector3.left * slideSpeed * Time.deltaTime;
 		transform.Rotate(0,-50 * Time.deltaTime,0);
 	}
 
 	public void Right(){
-		transform.position += Vector3.right * PlayerScript.slideSpeed * Time.deltaTime;
+		transform.position += Vector3.right * slideSpeed * Time.deltaTime;
 		transform.Rotate(0,50 * Time.deltaTime,0);
 	}
 
 	public void Jump(){
-		PlayerScript.animator.SetBool ("JUMP", true);
+		animator.SetBool ("JUMP", true);
 	}
 }

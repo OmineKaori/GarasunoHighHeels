@@ -63,7 +63,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\canvas2Script.cs" />
+    <Compile Include="Assets\Scripts\GameoverCanvasScript.cs" />
+    <Compile Include="Assets\Scripts\GhostScript.cs" />
     <Compile Include="Assets\Scripts\GoalScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerPrefsX.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\Recorder.cs" />
     <Compile Include="Assets\Scripts\UIScript.cs" />
