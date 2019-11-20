@@ -9,12 +9,11 @@ public class PlayerScript : MonoBehaviour {
 	public static float slideSpeed = 2.0f;
 
 	public static Animator  animator;
-	UIScript uiscript;
+    UIScript uiscript;
 
-	// ゲームが始まった時に一回だけ呼ばれる
-	void Start () {
+    // ゲームが始まった時に一回だけ呼ばれる
+    void Start () {
 		animator = GetComponent <Animator> ();
-		uiscript = GameObject.Find ("PlayControllCanvas").GetComponent<UIScript> ();
         Debug.Log("OKfromPS");
     }
 
@@ -50,8 +49,7 @@ public class PlayerScript : MonoBehaviour {
 		    (isBarrier == true)){
             speed = 0;
 			animator.SetBool ("DEAD", true);
-            GameoverCanvasScript.GameoverCanvas.enabled = true;
-
+            GetComponent<GameoverCanvasScript>().GameOver();
         }
 
 		//ゴールした時

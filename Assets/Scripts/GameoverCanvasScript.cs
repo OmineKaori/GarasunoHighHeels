@@ -9,12 +9,12 @@ public class GameoverCanvasScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameoverCanvas = GetComponent<Canvas>();
+        GameoverCanvas.enabled = false;
     }
 
     // Update is called once per frame
-    void Update()
+    public void GameOver()
     {
-        
+        GameoverCanvas.enabled = true;
     }
 }

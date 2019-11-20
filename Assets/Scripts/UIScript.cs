@@ -17,10 +17,10 @@ public class UIScript : MonoBehaviour {
 	
 	}
 
-	public void Gameover(){
-		gameovertext.text = "GAME\nOVER";
-		canvas.enabled = true;
-	}
+	//public void Gameover(){
+	//	gameovertext.text = "GAME\nOVER";
+	//	canvas.enabled = true;
+	//}
 
 	public void Goal(){
 		gameovertext.text = "GOAL";
