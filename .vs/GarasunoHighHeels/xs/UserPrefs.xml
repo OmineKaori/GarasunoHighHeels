@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{FEF8788B-CE2F-52BE-8876-92A6A3609F87}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UIScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerScript.cs" Line="80" Column="1" />
-      <File FileName="Assets/Scripts/UIScript.cs" Line="22" Column="9" />
+      <File FileName="Assets/Scripts/PlayerScript.cs" Line="29" Column="10" />
+      <File FileName="Assets/Scripts/UIScript.cs" Line="23" Column="5" />
       <File FileName="Assets/Scripts/Recorder.cs" Line="83" Column="1" />
       <File FileName="Assets/Scripts/GhostScript.cs" Line="78" Column="1" />
-      <File FileName="Assets/Scripts/GameoverCanvasScript.cs" Line="21" Column="1" />
+      <File FileName="Assets/Scripts/GameoverCanvasScript.cs" Line="12" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

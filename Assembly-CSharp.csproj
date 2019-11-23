@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\PlayerPrefsX.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\Recorder.cs" />
+    <Compile Include="Assets\Scripts\Replay.cs" />
     <Compile Include="Assets\Scripts\UIScript.cs" />
     <None Include="Assets\Packages\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
     <None Include="Assets\Packages\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />

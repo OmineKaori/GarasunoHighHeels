@@ -49,7 +49,7 @@ public class PlayerScript : MonoBehaviour {
 		    (isBarrier == true)){
             speed = 0;
 			animator.SetBool ("DEAD", true);
-            GetComponent<GameoverCanvasScript>().GameOver();
+            GetComponent<UIScript>().Gameover();
         }
 
 		//ゴールした時
@@ -58,7 +58,7 @@ public class PlayerScript : MonoBehaviour {
             Debug.Log("Goalをけんち");
 			animator.SetBool ("WIN", true);
 			// UI
-			//Goal();
+			GetComponent<UIScript>().Goal();
 		}
 	}
 	public void Left(){

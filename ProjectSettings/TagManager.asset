@@ -7,7 +7,6 @@ TagManager:
   - High
   - Low
   - barrier
-  - goal
   - Goal
   layers:
   - Default

@@ -13,8 +13,8 @@ public class GameoverCanvasScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void GameOver()
-    {
-        GameoverCanvas.enabled = true;
-    }
+    //public void GameOver()
+    //{
+    //    GameoverCanvas.enabled = true;
+    //}
 }
