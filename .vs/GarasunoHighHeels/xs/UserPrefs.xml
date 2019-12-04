@@ -2,22 +2,15 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerScript.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerScript.cs" Line="29" Column="10" />
-      <File FileName="Assets/Scripts/UIScript.cs" Line="23" Column="5" />
-      <File FileName="Assets/Scripts/Recorder.cs" Line="83" Column="1" />
-      <File FileName="Assets/Scripts/GhostScript.cs" Line="78" Column="1" />
-      <File FileName="Assets/Scripts/GameoverCanvasScript.cs" Line="12" Column="19" />
+      <File FileName="Assets/Scripts/UIScript.cs" />
+      <File FileName="Assets/Scripts/Recorder.cs" />
+      <File FileName="Assets/Scripts/GhostScript.cs" />
+      <File FileName="Assets/Scripts/GameoverCanvasScript.cs" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="GarasunoHighHeels" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cd2b6c3f-8301-4542-b867-9c040a127b77" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2855b28d-c003-4868-b76c-1eb0185e321f" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
